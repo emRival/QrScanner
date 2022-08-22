@@ -55,7 +55,7 @@ class QrCodeScanner extends Controller
               'status' => 'dipinjam',
                'diambil_jam' => now(),
          ]);
-          return response()->json(['status' => 200, 'message' => "data diinput pertama"]);
+          return response()->json(['status' => 200, 'message' => "data diinput kedua"]);
            $this->deleteCache();
             }
 
